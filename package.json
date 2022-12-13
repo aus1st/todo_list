@@ -2,10 +2,11 @@
   "name": "todo_list",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aus1st/todo_list.git"
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/aus1st/todo_list/issues"
   },
-  "homepage": "https://github.com/aus1st/todo_list#readme"
+  "homepage": "https://github.com/aus1st/todo_list#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  }
 }
