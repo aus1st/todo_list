@@ -1,6 +1,7 @@
 export interface Task{
     taskId: number,
     taskNarr: string,
-    createDate: Date
+    createDate: Date,
+    status: string;
 }
 
